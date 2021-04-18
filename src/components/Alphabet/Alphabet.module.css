@@ -1,0 +1,43 @@
+.wrapper {
+    padding: 35px 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.primary {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    font-size: 300px;
+    line-height: 1;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons .button {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    line-height: 1;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #ffffff;
+    background: rgb(30, 110, 208);
+}
+
+.buttons .button:hover, .buttons .button.active {
+    background: rgb(208, 30, 137);
+}
